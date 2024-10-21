@@ -1,0 +1,12 @@
+# Sample dynamic library for tokio/dylib test
+
+[package]
+name = "rust-tokio-dylib-sample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = "1.40.0"
+
+[lib]
+crate-type = ["dylib"]

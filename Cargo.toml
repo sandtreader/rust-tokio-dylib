@@ -1,0 +1,9 @@
+# Test of Tokio in dynamic libraries
+
+[workspace]
+members = [
+    "main",         # Main process which loads ...
+    "lib",          # A sample dynamic library
+]
+
+resolver = "2"
