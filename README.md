@@ -8,7 +8,7 @@ multi-threaded.
 ## What's going on
 
 In `main/src/main.rs` we create a runtime, either multi- or single-threaded
-depending on the RUNTIME environment variable.  When then use `libloading`
+depending on the RUNTIME environment variable.  We then use `libloading`
 to load a dynamic library and call its `init` function.  Then we sleep for
 a bit and shut down the runtime again.
 
